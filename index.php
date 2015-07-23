@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: MainWP Multiple Email Notifications
- * Plugin URI: http://blog.incognitech.in
+ * Plugin URI: https://getmoxied.net
  * Description: Multiple Email support for MainWP Notifications
  * Version: 0.0.1
  * Author: Moxie
