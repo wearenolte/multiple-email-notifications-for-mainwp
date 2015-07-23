@@ -4,8 +4,8 @@
  * Plugin URI: http://blog.incognitech.in
  * Description: Multiple Email support for MainWP Notifications
  * Version: 0.0.1
- * Author: Udit Desai
- * Author URI: http://blog.incognitech.in
+ * Author: Moxie, Udit Desai
+ * Author URI: https://getmoxied.net, http://blog.incognitech.in
  * License: GPL
  * Text Domain: mwp-men
  */
