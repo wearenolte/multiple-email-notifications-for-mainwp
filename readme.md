@@ -17,9 +17,7 @@ MainWP Multiple Email Notifications is a WordPress add-on for MainWP which lets 
 
 This plugin allows you to trigger multiple emails to recipients after the daily auto-updates are performed. This is specific to each site in MainWP.
 
-**NOTE**: Development in progress
-
-**Important Links ( Future Links - doesn't exist right now )**
+**Important Links**
 
 * [GitHub](https://github.com/moxienyc/mainwp-multiple-email-notifications/) - Please mention your wordpress.org username when sending pull requests.
 
