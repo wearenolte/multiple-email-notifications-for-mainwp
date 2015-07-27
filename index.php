@@ -3,7 +3,7 @@
  * Plugin Name: MainWP Multiple Email Notifications
  * Plugin URI: https://getmoxied.net
  * Description: Multiple Email support for MainWP Notifications
- * Version: 0.0.1
+ * Version: 0.1
  * Author: Moxie
  * Author URI: https://getmoxied.net
  * License: GPL
@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if ( ! defined( 'MWP_MEN_VERSION' ) ) {
-	define( 'MWP_MEN_VERSION', '0.0.1' );
+	define( 'MWP_MEN_VERSION', '0.1' );
 }
 if ( ! defined( 'MWP_MEN_TEXT_DOMAIN' ) ) {
 	define( 'MWP_MEN_TEXT_DOMAIN', 'mwp-men' );
