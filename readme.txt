@@ -8,7 +8,7 @@ Stable tag:        master
 License:           GPLv2 or later
 License URI:       http://www.gnu.org/licenses/gpl-2.0.html
 
-MainWP Multiple Email Notifications is a WordPress add-on for MainWP which lets user send emails to multiple recipients for auto updated of child sites.
+MainWP Multiple Email Notifications is a MainWP extension which lets user send emails to multiple recipients for auto updated of child sites.
 
 == Description ==
 
