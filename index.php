@@ -48,7 +48,7 @@ function mwp_men_format_email( $to, $body, $website_name, $website_url ) {
 
                     <div style="display: block; width: 100% ; background: #1c1d1b;">
                       <div style="display: block; width: 95% ; margin-left: auto ; margin-right: auto ; padding: .5em 0 ;">
-                        <div style="padding: .5em 0 ; float: left;"><p style="color: #fff; font-family: Helvetica, Sans; font-size: 12px ;">© ' . date('Y') . ' ' . $website_name . '. All Rights Reserved.</p></div>
+                        <div style="padding: .5em 0 ; float: left;"><p style="color: #fff; font-family: Helvetica, Sans; font-size: 12px ;">© ' . date( 'Y' ) . ' ' . $website_name . '. All Rights Reserved.</p></div>
                         <div style="float: right;"><a href="' . $website_url . '"></a></div><div style="clear: both;"></div>
                       </div>
                    </div>
@@ -79,7 +79,8 @@ function mwp_men_format_email( $to, $body, $website_name, $website_url ) {
 <br>';
 }
 
-function mwp_me_add_multiple_email_field( $website ) { ?>
+function mwp_me_add_multiple_email_field( $website ) {
+	?>
 	<tr>
 		<th scope="row">
 			<?php _e( 'Notification Emails after Offline Checks', MWP_MEN_TEXT_DOMAIN ); ?>
@@ -95,7 +96,8 @@ function mwp_me_add_multiple_email_field( $website ) { ?>
 			<textarea style="height: 140px; width: 100%;" name="mwp-me-emails" id="mwp-me-emails"><?php echo $emails; ?></textarea>
 		</td>
 	</tr>
-<?php }
+	<?php
+}
 add_action( 'mainwp_extension_sites_edit_tablerow', 'mwp_me_add_multiple_email_field' );
 
 function mwp_me_update_site( $website_id ) {
@@ -181,7 +183,7 @@ function mwp_me_send_emails_after_update( $pluginsNewUpdate, $pluginsToUpdate, $
 		if ( ! empty( $mail_content ) ) {
 			$mail_content = ( '<div>Following updates have been applied on your WordPress Site. (<a href="' . $website->url . '">' . $website->name . '</a>)</div>' . $mail_content );
 			$emails = MainWPDB::Instance()->getWebsiteOption( $website, 'mwp_me_emails' );
-			MainWPLogger::Instance()->info( var_export($emails,true) );
+			MainWPLogger::Instance()->info( var_export( $emails,true ) );
 			$emails = explode( ',', $emails );
 			MainWPLogger::Instance()->info( var_export( $emails, true ) );
 			if ( ! empty( $emails ) && is_array( $emails ) ) {
