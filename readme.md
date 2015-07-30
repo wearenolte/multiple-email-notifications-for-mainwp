@@ -3,13 +3,13 @@
 
 Multiple Email Notifications For MainWP is a MainWP extension which lets user send emails to multiple recipients for auto updated of child sites.
 
-**Contributors:** [desaiuditd](https://profiles.wordpress.org/desaiuditd)  
+**Contributors:** [moxiedeveloper](https://profiles.wordpress.org/moxiedeveloper), [desaiuditd](https://profiles.wordpress.org/desaiuditd)  
 **Tags:** [mainwp](https://wordpress.org/plugins/tags/mainwp), [emails](https://wordpress.org/plugins/tags/emails), [notifications](https://wordpress.org/plugins/tags/notifications), [auto updates](https://wordpress.org/plugins/tags/auto updates)  
 **Requires at least:** 3.6  
 **Tested up to:** 4.2  
 **Stable tag:** master  
 **License:** [GPLv2 or later](http://www.gnu.org/licenses/gpl-2.0.html)  
-**Donate Link:** Paypal ID : desaiuditd@gmail.com  
+**Donate Link:** https://getmoxied.net/contact/  
 
 [![Build Status](https://travis-ci.org/moxienyc/multiple-email-notifications-for-mainwp.png?branch=master)](https://travis-ci.org/moxienyc/multiple-email-notifications-for-mainwp) 
 
@@ -38,6 +38,9 @@ Coming Soon!
 ![Multiple Emails Settings Field](assets/screenshot-1.png)
 
 ## Changelog ##
+
+### 0.2 July 30, 2015 ###
+* Plugin authors updated
 
 ### 0.1 July 27, 2015 ###
 * Plugin Scaffolding

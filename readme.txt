@@ -1,6 +1,6 @@
 === Multiple Email Notifications For MainWP ===
-Contributors:      desaiuditd
-Donate Link:       Paypal ID : desaiuditd@gmail.com
+Contributors:      moxiedeveloper, desaiuditd
+Donate Link:       https://getmoxied.net/contact/
 Tags:              mainwp, emails, notifications, auto updates
 Requires at least: 3.6
 Tested up to:      4.2
@@ -48,6 +48,9 @@ Great! There are several ways you can get involved to help make this plugin bett
 2. **Suggest New Features:** Have an awesome idea? Please share it! Simply [create a new topic](https://github.com/moxienyc/multiple-email-notifications-for-mainwp/issues) in the issure tracker to express your thoughts on why the feature should be included and get a discussion going around your idea.
 
 == Changelog ==
+
+= 0.2 July 30, 2015 =
+* Plugin authors updated
 
 = 0.1 July 27, 2015 =
 * Plugin Scaffolding
